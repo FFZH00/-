@@ -1,0 +1,18 @@
+<!--pages/detail/detail.wxml-->
+<view class="content">
+    <!--pics文件夹下的background.jpg文件-->
+    <image class='background' src="../../img/7.jpg" mode="aspectFill"></image>
+    <!--页面其它部分-->
+</view>
+    <image src="{{img}}" style="border: rgb(31, 7, 7);width: 100%;"></image>
+<view class="showModule" wx:if="{{ishow}}">
+    <text class="tips" >请先选择图片!</text>
+</view>
+<button bindtap="doChooseImage" class="btn">上传图片</button>
+<button bindtap="adTap" class="btn" >开始识别</button> 
+<!-- 返回结果 -->
+<view class="result-content" >
+<text user-select="true">{{content}}</text>
+</view>
+
+

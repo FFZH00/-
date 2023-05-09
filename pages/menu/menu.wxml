@@ -1,0 +1,9 @@
+<!--pages/menu/menu.wxml-->
+<view class="content">
+	<!--pics文件夹下的background.jpg文件-->
+	<image class='background' src="../../img/7.jpg" mode="aspectFill"></image>
+	<!--页面其它部分-->
+</view>
+<image style="width:100%; height: 300px; " src="{{img}}" ></image>
+<button bindtap="doChooseImage" class="btn" bindtap="godetail">百度API识别</button>
+

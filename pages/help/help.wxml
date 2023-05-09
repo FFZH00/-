@@ -1,0 +1,17 @@
+<!--pages/help/help.wxml-->
+<view class="color">
+    <text>1.你们是否会存储我上传的文件？\n</text>
+</view>
+<text>我们不会存储用户上传的任何图像。\n</text>
+<view class="color">
+    <text>2.识别失败怎么办？\n</text>
+</view>
+<text>建议重新拍照上传，拍照时注意角度、亮度、曝光度，让图片尽可能清晰。\n</text>
+<view class="color">
+    <text>3.可以识别什么语言呢？\n</text>
+</view>
+<text>目前只支持中文和英文。\n</text>
+<view class="color">
+    <text>4.首页识别和百度API识别有什么区别？\n</text>
+</view>
+<text>首页识别针对于广告牌等场景复杂的文字识别，百度API识别为调用百度现有文字识别API，比较适合场景比较简单的文字识别。\n</text>
